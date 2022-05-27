@@ -1,0 +1,36 @@
+.nav{
+   background-color: #F1F3FF;
+
+}
+
+.nav section{
+   height: 97px;
+   display: flex;
+   justify-content: space-between;
+   padding: 25px 136px;
+}
+
+.nav section div{
+   display: flex;
+   align-items: center;
+}
+
+.nav section div:first-child ul{
+   padding-left: 500px;
+}
+
+.nav section div:first-child ul li{
+   display: inline-block;
+   margin-right: 32px;
+   font-size: 14px;
+}
+
+.nav button{
+   width: 81px;
+   height: 36px;
+   background-color: #5CB85F;
+   border-radius: 2px;
+   border: none;
+   color: white;
+   font-size: 14px;;
+}

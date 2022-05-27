@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+
+.container ul{
+    margin-left: 86px;
+    font-size: 12px;
+}
+
