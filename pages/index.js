@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css';
 import Navbar from "../components/Navbar/Navbar";
-import HeroApp from '../components/Heroapp/HeroApp';
+import HeroApp from '../components/Hero/Hero';
 import Footer from '../components/Footer/Footer';
 
 export default function Home() {

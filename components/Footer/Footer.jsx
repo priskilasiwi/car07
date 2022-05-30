@@ -1,9 +1,28 @@
 import styles from './Footer.module.css';
 import Image from 'next/image';
+import { Pie } from 'react-chartjs-2';
+//eslint-disable-next-line
+import { Chart} from "chart.js/auto";
 
 const Footer = () => {
+    const dataChart = {
+        labels:['Innova', 'Ferrari', 'APV','Avanza','Alphard'],
+        datasets:[
+          {
+            label:"Banyak Peminat",
+            backgroundColor: ['blue','green','yellow','red','purple'],
+            data: [100,5,30,213,70],
+          },
+          
+        ]
+      }
+
     return(
         <>
+            <div className={styles.chart}>
+                <h1>Banyak Peminat Sewa Mobil Binar Car Rental</h1>
+                <Pie data={dataChart} />
+            </div>
             <section>
                 <div className={styles.container}>
                     <ul>
